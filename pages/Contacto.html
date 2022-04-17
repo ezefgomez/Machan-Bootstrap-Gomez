@@ -12,80 +12,103 @@
 </head>
 <body>
     <div id="grilla2">
-    <header class="container-Header">
-        <div class="logo">
-            <a href="#">
-            <img src="../assets/logo/1.png">
-            </a>
-        </div>
-        <div class="imagenFb">
-            <a href="https://www.facebook.com/MachanEntretenimientos/" target="_blank">
-            <img src="../assets/imgs/Facebook.png">
-            </a>
-        </div>
-        <div class="imagenIg">
-            <a href="https://www.instagram.com/machan.entretenimientos/" target="_blank">
-            <img src="../assets/imgs/Logo Instagram.jpg">
-            </a>
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./Diversión.html">Diversión</a>
-                </li>
-                <li>
-                    <a href="./Promociones.html">Promociones</a>
-                </li>
-                <li>
-                    <a href="./Recarga.html">Recarga</a>
-                </li>
-                <li>
-                    <a class="active" href="#">Contacto</a>
-                </li>
-            </ul>
-        </nav>
+        <header class="container-Header">
+            <div class="logo">
+                <a href="#">
+                <img src="../assets/logo/1.png">
+                </a>
+            </div>
+            <div class="imagenFb">
+                <a href="https://www.facebook.com/MachanEntretenimientos/" target="_blank">
+                <img src="../assets/imgs/Facebook.png">
+                </a>
+            </div>
+            <div class="imagenIg">
+                <a href="https://www.instagram.com/machan.entretenimientos/" target="_blank">
+                <img src="../assets/imgs/Logo Instagram.jpg">
+                </a>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item nav-pills">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item nav-pills">
+                            <a class="nav-link" href="./pages/Diversión.html">Diversión</a>
+                        </li>
+                        <li class="nav-item nav-pills">
+                            <a class="nav-link" href="./pages/Promociones.html">Promociones</a>
+                        </li>
+                        <li class="nav-item nav-pills">
+                            <a class="nav-link" href="./pages/Recarga.html">Recarga</a>
+                        </li>
+                        <li class="nav-item nav-pills">
+                            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    </div>
+                </div>
+            </nav>
     </header>
     <main class="container-Main2">
         <div class="encabezado4">
             <h1> Contactanos: </h1>
-            <form action="procesar.php" method="">
         </div>
-                <div class="tituloFormulario">
-                    <h2><legend>Formulario de contacto: </legend></h2>
+        <div class="container">
+            <form>
+                <div class="input-group">
+                    <span class="input-group-text">Nombre y Apellido</span>
+                    <input type="text" aria-label="First name" class="form-control">
+                    <input type="text" aria-label="Last name" class="form-control">
                 </div>
-                <div class="tituloNombre">
-                    <label for="nombre y apellido">Nombre y apellido: </label>
-                    <input class="name" type="text" name="nombre y apellido">
+                <div class="mb-3">
+                    <label for="exampleInputTelefono" class="form-label">Teléfono: </label>
+                    <input type="tel" class="form-control" id="exampleInputTelefono">
                 </div>
-                <div class="tituloMail">
-                    <label for="Mail">Mail: </label>
-                    <input class="mail" type="Mail" name="Mail" required>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" placeholder="Server" aria-label="Server">
                 </div>
-                <div class="tituloTelefono">
-                    <label for="telefono">Tel: </label>
-                    <input class="telefono" type="tel" name="telefono">
+                <div class="input-group mb-3">
+                    <label class="input-group-text" for="inputGroupSelect01">Tema a tratar</label>
+                    <select class="form-select" id="inputGroupSelect01">
+                        <option selected>Elegir la necesaria</option>
+                        <option value="1">Consulta general</option>
+                        <option value="2">Perdida de tarjeta</option>
+                        <option value="3">Objeto de valor perdido</option>
+                        <option value="4">Cumpleaños</option>
+                        <option value="5">Quejas</option>
+                    </select>
                 </div>
-                <div class="cbox">
-                    <label class="cbox1"><input class="box1" type="checkbox" value="1_checkbox">Perdida de tarjeta</label><br>
-                    <label class="cbox2"><input class="box2" type="checkbox" value="2_checkbox">Reclamo</label><br>
-                    <label class="cbox3"><input class="box3" type="checkbox" value="3_checkbox">Algo para mejorar</label><br>
-                    <label class="cbox4"><input class="box4" type="checkbox" value="5_checkbox">Consulta general</label><br>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Escriba explicando el tema en el cual podemos ayudarlo: </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <div id="dejarComentario">
-                    <h4>Dejanos tu comentario</h4>
-                    <textarea name="Comentario" id="" cols="30" rows="10"></textarea>
-                    <input name="envio" type="submit" value="Enviar">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                    Agree to terms and conditions
+                    </label>
                 </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
-            <div id="busquedaGoogle">
-                <h3 class="busqueda">Encontranos en google maps :</h3>
-                <a href="https://www.google.com/maps/place/Machan+entretenimientos/@-33.8071848,-59.5028667,15z/data=!4m5!3m4!1s0x0:0xe3e153d252a1b7b!8m2!3d-33.8071874!4d-59.5028688" target="_blank">
-                <img src="../assets/imgs/mapa.png">
-                </a>
-            </div>
+        </div>
+        <div id="busquedaGoogle">
+            <h3 class="busqueda">Encontranos en google maps :</h3>
+            <a href="https://www.google.com/maps/place/Machan+entretenimientos/@-33.8071848,-59.5028667,15z/data=!4m5!3m4!1s0x0:0xe3e153d252a1b7b!8m2!3d-33.8071874!4d-59.5028688" target="_blank">
+            <img src="../assets/imgs/mapa.png">
+            </a>
+        </div>
     </main>
     <footer class="container-Footer">
         <h2 class="encabezado3">Muchas gracias por su visita, lo esperamos pronto</h2>
