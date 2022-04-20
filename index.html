@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="stylesheet" href="./css/estilos.css">
     <title>Machan Entretenimientos</title>
@@ -15,17 +15,7 @@
         <header class="container-Header">
             <div class="logo">
                 <a href="#">
-                <img src="./assets/Logo/1.png">
-                </a>
-            </div>
-            <div class="imagenFb">
-                <a href="https://www.facebook.com/MachanEntretenimientos/" target="_blank">
-                <img src="./assets/Imgs/Facebook.png">
-                </a>
-            </div>
-            <div class="imagenIg">
-                <a href="https://www.instagram.com/machan.entretenimientos/" target="_blank">
-                <img src="./assets/Imgs/Logo Instagram.jpg">
+                <img class="img-fluid" src="./assets/Logo/1.png">
                 </a>
             </div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -51,10 +41,6 @@
                             <a class="nav-link" href="./pages/Contacto.html">Contacto</a>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                     </div>
                 </div>
             </nav>
@@ -103,19 +89,56 @@
             </div>
         </main>
         <aside>
-            <div  class="container-Aside">
-                <h2 class="encabezado2">Nuestras redes</h2>
-                <div class="publicacion1">
-                    <h3>Publicación 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sint neque inventore, vitae </p>
+            <div class="tab-box tabs-container">
+                <div id="tab-popular" class="tab tab_content">
+                    <ul class="tab-list"> 
+                        <li>
+                            <div class="tarjeta">
+                                <a href="https://www.facebook.com/MachanEntretenimientos/">
+                                <img width="164" height="124" src="./assets/imgs/Imagen facebook 1.jpg" data-src="https://www.facebook.com/MachanEntretenimientos/" class="attachment-easyweb_webnus_tabs_img size-easyweb_webnus_tabs_img wp-post-image lazy loaded" alt="" loading="lazy" data-was-processed="true">
+                                </a>
+                            </div>
+                            <div class="content"> 
+                                <a href="https://www.facebook.com/MachanEntretenimientos/">Publicación de facebook 1
+                                </a>
+                            </div> 
+                        </li> 
+                        <li>
+                            <div class="tarjeta">
+                                <a href="https://www.facebook.com/MachanEntretenimientos/">
+                                <img width="164" height="124" src="./assets/imgs/Imagen facebook 2.jpg" data-src="https://www.facebook.com/MachanEntretenimientos/" class="attachment-easyweb_webnus_tabs_img size-easyweb_webnus_tabs_img wp-post-image lazy loaded" alt="" loading="lazy" data-was-processed="true">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <a href="https://www.facebook.com/MachanEntretenimientos/">Publicación de facebook 2
+                                </a>
+                            </div> 
+                        </li>
+                        <li>
+                            <div class="tarjeta">
+                                <a href="https://www.facebook.com/MachanEntretenimientos/">
+                                <img width="164" height="124" src="./assets/imgs/Imagen facebook 3.jpg" data-src="https://www.facebook.com/MachanEntretenimientos/" class="attachment-easyweb_webnus_tabs_img size-easyweb_webnus_tabs_img wp-post-image lazy loaded" alt="" loading="lazy" data-was-processed="true">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <a href="https://www.facebook.com/MachanEntretenimientos/">Publicación de facebook 3
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tarjeta">
+                                <a href="https://www.facebook.com/MachanEntretenimientos/">
+                                    <img width="164" height="124" src="./assets/imgs/Imagen facebook 4.jpg" data-src="https://www.facebook.com/MachanEntretenimientos/" class="attachment-easyweb_webnus_tabs_img size-easyweb_webnus_tabs_img wp-post-image lazy loaded" alt="" loading="lazy" data-was-processed="true">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <a href="https://www.facebook.com/MachanEntretenimientos/">Publicación de facebook 4
+                                    </a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div class="publicacion2">
-                    <h3>Publicación 2</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sint neque inventore, vitae </p>
-                </div>
-                <div class="publicacion3">
-                    <h3>Publicación 3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sint neque inventore, vitae </p>
+            </ul>
                 </div>
             </div>
             </aside>

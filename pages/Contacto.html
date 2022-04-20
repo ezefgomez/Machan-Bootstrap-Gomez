@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="stylesheet" href="../css/estilos.css">
     <!-- Bootstrap-->
@@ -15,17 +15,7 @@
         <header class="container-Header">
             <div class="logo">
                 <a href="#">
-                <img src="../assets/logo/1.png">
-                </a>
-            </div>
-            <div class="imagenFb">
-                <a href="https://www.facebook.com/MachanEntretenimientos/" target="_blank">
-                <img src="../assets/imgs/Facebook.png">
-                </a>
-            </div>
-            <div class="imagenIg">
-                <a href="https://www.instagram.com/machan.entretenimientos/" target="_blank">
-                <img src="../assets/imgs/Logo Instagram.jpg">
+                <img class="img-fluid" src="../assets/logo/1.png">
                 </a>
             </div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -39,22 +29,18 @@
                             <a class="nav-link" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item nav-pills">
-                            <a class="nav-link" href="./pages/Diversión.html">Diversión</a>
+                            <a class="nav-link" href="./Diversión.html">Diversión</a>
                         </li>
                         <li class="nav-item nav-pills">
-                            <a class="nav-link" href="./pages/Promociones.html">Promociones</a>
+                            <a class="nav-link" href="./Promociones.html">Promociones</a>
                         </li>
                         <li class="nav-item nav-pills">
-                            <a class="nav-link" href="./pages/Recarga.html">Recarga</a>
+                            <a class="nav-link" href="./Recarga.html">Recarga</a>
                         </li>
                         <li class="nav-item nav-pills">
                             <a class="nav-link active" aria-current="page" href="#">Contacto</a>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                     </div>
                 </div>
             </nav>
@@ -70,9 +56,9 @@
                     <input type="text" aria-label="First name" class="form-control">
                     <input type="text" aria-label="Last name" class="form-control">
                 </div>
-                <div class="mb-3">
-                    <label for="exampleInputTelefono" class="form-label">Teléfono: </label>
-                    <input type="tel" class="form-control" id="exampleInputTelefono">
+                <div class="input-group">
+                    <span class="input-group-text">Telefono</span>
+                    <input type="tel" aria-label="Phone number" class="Phone-number">
                 </div>
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Username" aria-label="Username">
@@ -106,7 +92,7 @@
         <div id="busquedaGoogle">
             <h3 class="busqueda">Encontranos en google maps :</h3>
             <a href="https://www.google.com/maps/place/Machan+entretenimientos/@-33.8071848,-59.5028667,15z/data=!4m5!3m4!1s0x0:0xe3e153d252a1b7b!8m2!3d-33.8071874!4d-59.5028688" target="_blank">
-            <img src="../assets/imgs/mapa.png">
+            <img class="img-fluid" src="../assets/imgs/mapa.png">
             </a>
         </div>
     </main>
