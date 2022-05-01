@@ -89,13 +89,6 @@ nav {
   color: rgb(151, 151, 151);
 }
 
-/*
-@media (max-width: 1000px) {
-    .encabezado1{
-        font-size: 1,5em;
-    }
-}
-*/
 .container-carousel {
   display: grid;
   grid-column-start: 1;
@@ -138,13 +131,6 @@ nav {
   grid-template-columns: 1fr;
 }
 
-/*
-@media (max-width: 1000px) {
-    .container-Aside{
-        display: none;
-    }
-}
-*/
 .tarjeta {
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.08) 0 0 2rem;
@@ -190,13 +176,7 @@ nav {
   justify-self: center;
 }
 
-/*
-@media (max-width: 1000px) {
-    .encabezado3{
-        font-size: 1,5em;
-    }
-}
-*/
+
 h3 {
   display: grid;
   grid-column-start: 1;
