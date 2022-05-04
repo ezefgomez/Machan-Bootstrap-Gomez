@@ -14,8 +14,8 @@ $tipo-fuente-h1: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 $colors_borders_buttons:(
     promociones: border 2px solid rgb(0, 0, 0),
     saldo: border 2px solid rgb(46, 46, 46),
-    tarjeta: border 2px solid rgb(114, 79, 79)
-    consulta: border 2px solid rgb(146, 70, 70)
+    tarjeta: border 2px solid rgb(114, 79, 79),
+    consulta: border 2px solid rgb(146, 70, 70),
 );
 
 /* Mixin */
@@ -28,6 +28,10 @@ $colors_borders_buttons:(
 /* Página de Inicio */
 
 @import "__inicio.scss";
+
+/* Página de Footer */
+
+@import "__footer.scss";
 
 /* Página de contacto */
 
